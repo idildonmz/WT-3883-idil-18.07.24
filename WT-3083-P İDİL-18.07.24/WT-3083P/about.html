@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <title>ACAR HUKUK</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-dark mb-5">
+      <div class="container px-5">
+        <a class="navbar-brand text-white" href="index.html"
+          >ACAR HUKUK HAKKINDA</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarText"
+          aria-controls="navbarText"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link text-white" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#about" target="_blank"
+              >Hakkında</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div
+      class="container about-hero py-5 d-flex flex-column align-items-center justify-content-center"
+    >
+      <div class="h1 text-center py-2">
+        MİSYONUMUZ <br />
+        Herkesin Hukuki Danışmanı Olduğunu Bilmesidir...
+      </div>
+      <div class="p text-center text-muted pb-4">
+        ACAR Hukuk Bürosu, müvekkillerine Avukatlık ve Hukuki Danışmanlık
+        hizmetleri vermektedir. Çalıştığı alanlarda müvekkillerinin hukuki
+        problemlerini, verimli bir biçimde çözmeyi hedeflemektedir.
+        <br />
+        Borçlar Hukuku, İdare Hukuku, Ticaret Hukuku, Bilişim Hukuku,
+        Marka-patent Hukuku, Gayrimenkul Hukuku, Gümrük Hukuku ve diğer alanlar
+        üzerine faaliyetler yürütmektedir.
+      </div>
+      <button  type="button" class="btn btn-primary mb-5 btn-lg mx-auto">
+        <a style="color: white; text-decoration:none;" href="#baş-kuruluşumuz">Hikayemizi Okuyun</a>
+      </button>
+    </div>
+
+    <div class="about-cards">
+      <div class="container px-5 py-5">
+        <div class="row">
+          <div class="col-6">
+            <img
+              class=" kuruluş-img rounded-4 "
+              src="data:image/jpeg;base64,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"
+            />
+          </div>
+          <div
+            class="col-6 d-flex align-items-start justify-content-center flex-column"
+          >
+            <h1 id="baş-kuruluşumuz" >Kuruluşumuz</h1>
+            <p class="text-muted">
+              Her yıl daha da büyüyerek sektörün öncü firmalarından biri olmamızı sizin başarılarınıza borçluyuz. Şirketimizin 7. yıl dönümü sevincini siz değerli ekip arkadaşlarımızla/ortaklarımızla kutlamak isteriz.
+              
+              
+              <br>
+              ACAR Hukuk Olarak 7.Yılımızı Sizinle Doldurduk.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="about-cards-2 py-5">
+      <div class="container px-5 py-5">
+        <div class="row">
+          <div
+            class="col-6 d-flex align-items-start justify-content-center flex-column"
+          >
+            <h1>Büyüme ve Gelişmemiz</h1>
+            <p class="text-muted">
+              Avukatlıkta, dürüstlük, sorumluluk alma, risk alma ve çalışkanlık önemlidir. Ayrıca, planlama, öğrenme, arayış ve deneyim kazanmaya devam etmek, iş fikirlerini gerçekleştirmek için güçlü bir destek oluşturur. 
+             <br>
+             Avukatlar, başarıya ulaşmak için düzenli olarak çözümler aramalı ve doğru hedefleri belirlemeli, çözümlerin uygulanması için gereken adımları atmalıdır.
+            </p>
+          </div>
+          <div class= "col-6">
+            <img class=" kuruluş-img  rounded-3 " src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTUzFS3n4eao6Menp_Mr9ezUzQNn75ilb9BQ&s" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+   
+    <div class="staff-section py-5 mb-5">
+      <div class="container">
+        <div class="h2 text-center pb-5"> Uzman Kadromuz <br>Avukatlarımız</div>
+       
+        </div>
+        <div class="row">
+          <div
+            class="col-3 d-flex justify-content align-items-center flex-column"
+          >
+            <img class="rounded-pill" src="img/150x150.png" alt="" />
+            <h5 class="text-center pt-3">Hilal Dinç</h5>
+            <p class="text-muted">Kurucu Av.</p>
+          </div>
+          <div
+            class="col-3 d-flex justify-content-between align-items-center flex-column"
+          >
+            <img class="rounded-pill" src="img/150x150.png" alt="" />
+            <h5 class="text-center pt-3">Kemal Köse</h5>
+            <p class="text-muted">Av.</p>
+          </div>
+          <div
+            class="col-3 d-flex justify-content-between align-items-center flex-column"
+          >
+            <img class="rounded-pill" src="img/150x150.png" alt="" />
+            <h5 class="text-center pt-3">Kerim Ünal</h5>
+            <p class="text-muted">Av.</p>
+          </div>
+          <div
+            class="col-3 d-flex justify-content-between align-items-center flex-column"
+          >
+            <img class="rounded-pill" src="img/150x150.png" alt="" />
+            <h5 class="text-center pt-3">Özlem Acar</h5>
+            <p class="text-muted">Kurucu Av.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+   
+    <div class="bg-dark py-4">
+      <div class="container px-5">
+        <div class="row justify-content-between align-items-center">
+          <div class="col-auto">
+            <div class="small m-0 text-white">
+              Copyright © Your Website 2023<br> İdil Dönmez
+            </div>
+          </div>
+          <div class="col-auto">
+            <a class="link-light small" href="#!">Privacy</a>
+            <span class="text-white mx-1">·</span>
+            <a class="link-light small" href="#!">Terms</a>
+            <span class="text-white mx-1">·</span>
+            <a class="link-light small" href="#!">Contact</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

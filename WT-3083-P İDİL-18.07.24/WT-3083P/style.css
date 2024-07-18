@@ -1,0 +1,124 @@
+.navbar-nav .nav-link {
+  color: RGBA(255, 255, 255, 0.5) !important;
+}
+.ilk-img{
+  width: 600px;
+  height: 400px;
+}
+.kuruluş-img{
+  width: 500px;
+  height: 350px;
+}
+
+.h1 {
+  font-size: 48px;
+  font-weight: 700;
+
+}
+.h2{
+font-size: 35px;
+color: rgba(0, 0, 0, 0.705);
+}
+
+.p1 {
+  color: aliceblue;
+  font-size: 20px;
+  font-weight: 400;
+}
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.future-elements {
+  display: flex;
+  flex-direction: column;
+}
+.future-elements .h2 {
+  font-size: 20px;
+}
+.future-elements i {
+  padding: 12px 15px;
+  border-radius: 7px;
+  width: 48px;
+  height: 48px;
+  background-color: #1170fd;
+  color: white;
+}
+.bio .p {
+  font-size: 24px;
+  font-weight: 400;
+  font-style: italic;
+}
+.bio {
+  background-color: #f8f9fa;
+}
+
+.bio img {
+  border-radius: 50%;
+}
+.card-section .h2 {
+  font-size: 32px;
+  font-weight: 700;
+}
+.card-section .p2 {
+  font-size: 20px;
+  font-weight: 400;
+}
+.card-section .card-elements {
+  width: 376px;
+}
+.call .container .row {
+  height: 120px;
+}
+.call .h1 {
+  font-size: 28px;
+  font-weight: 700;
+}
+.call .input-group input {
+  background-color: blue;
+}
+.about-hero .h1 {
+  font-size: 40px;
+  font-weight: 700;
+}
+.about-hero .p {
+  font-size: 20px;
+  font-weight: 400;
+}
+.about-cards h1 {
+  font-size: 32px;
+  font-weight: 700;
+}
+.about-cards p {
+  font-size: 20px;
+  font-weight: 400;
+}
+.about-cards {
+  background-color: #f8f9fa;
+}
+.staff-section {
+  background-color: #f8f9fa;
+}
+.staff-section .h2 {
+  font-size: 32px;
+  font-weight: 700;
+}
+.staff-section .p {
+  font-size: 20px;
+  font-weight: 400;
+}
+.contact-form .feature {
+  width: 40px;
+  background-color: black;
+  font-size: 25px;
+}
+.about-cards-2 p {
+  font-size: 20px;
+  font-weight: 400;
+}
+.about-cards-2 h1 {
+  font-size: 32px;
+  font-weight: 700;
+}
+
